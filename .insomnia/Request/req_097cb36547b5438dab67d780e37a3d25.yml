@@ -1,0 +1,48 @@
+_id: req_097cb36547b5438dab67d780e37a3d25
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1700129677599
+created: 1695277379236
+url: "{{apiURL}}/tes/rvp1/measuringdevices/:deviceID/readingvalues"
+name: DK TEST ! RV Daily reading values per measuring device Copy
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2023"
+    disabled: true
+    id: pair_d9efc2c73ade4c2cbc393884db7ef38a
+  - name: month
+    value: "1"
+    disabled: true
+    id: pair_e4cc1fae76a94d57a1ec2ae0901cd59b
+  - name: resolution
+    value: daily
+    disabled: false
+    id: pair_36db475e18424f0da0cbf713d66b6fb3
+  - name: estimated
+    value: "true"
+    disabled: true
+    id: pair_2fba41e7bd5045e2b1655d4e5afd82c1
+  - name: deviceID
+    value: 00002885264MGNLD01
+    disabled: false
+    id: pair_49185b40d5e1483c9257442d5e5a247b
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

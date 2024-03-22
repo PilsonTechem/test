@@ -1,0 +1,61 @@
+_id: req_e9cd5d30a6c94b6e89aaca27c29f97eb
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1708680145031
+created: 1695277379233
+url: "{{apiURL}}/tes/rvp1/measuringdevices/:deviceID/readingvalues"
+name: RV Daily reading values per measuring device
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2022"
+    disabled: false
+    id: pair_30f050d7e49b4155934e46450276ab3a
+    type: text
+    multiline: false
+    description: ""
+  - name: month
+    value: "12"
+    disabled: true
+    id: pair_4dabc89d09004bfc8a58157cf6ffff65
+  - name: resolution
+    value: daily
+    disabled: true
+    id: pair_e7a5855072a646c4b9dbc7d36acbd03d
+  - name: estimated
+    value: "true"
+    disabled: false
+    id: pair_a9e2c0a9730a4b08be637335980e8804
+  - name: ""
+    value: null
+    disabled: true
+    id: pair_1d41a95bbe244a0fb422dd95db8f2a30
+  - id: pair_423eb3cb314547af8c61bc3154728dac
+    name: deviceID
+    value: 00003591326MGNLD01
+    description: ""
+    disabled: true
+  - id: pair_3f3556a6e5944cb1b745dccbab9b0e16
+    name: deviceID
+    value: 00006951561MGPOL10
+    description: ""
+    disabled: false
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

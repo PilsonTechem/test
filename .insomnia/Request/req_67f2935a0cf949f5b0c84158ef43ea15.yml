@@ -1,0 +1,51 @@
+_id: req_67f2935a0cf949f5b0c84158ef43ea15
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1711096106260
+created: 1711095430136
+url: "{{apiURL}}/arge/documents/out/:documentID/status"
+name: ARGE Doc Status
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "statustype": "error",
+    "code": 5000,
+    "message": "TEST"
+    }
+parameters:
+  - name: offset
+    value: "300"
+    disabled: true
+    id: pair_a9f78243326e41e2bf67ace6edd59c3f
+  - name: limit
+    value: "100"
+    disabled: true
+    id: pair_45565efcceed47d4809676c757d5046c
+  - id: pair_66f81420818047b08518679fa2b93cb5
+    name: documentID
+    value: 991c020c-43bb-3b94-8ade-231246d085d3
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+    id: pair_8b93df465ea347d6af81071955965b38
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+  useISO88591: false
+metaSortKey: -1695277379262.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

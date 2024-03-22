@@ -1,0 +1,20 @@
+_id: env_21f2398739b84b8580f0ab6bda91468d
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1710925906422
+created: 1695278927947
+name: PL-001850 (PROD)
+data:
+  username: PL000000185002
+  password: "!955MiNX!3?x"
+  apiURL: https://api.techem.com/dxs/pl
+  customerNumber: "001850"
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+    - customerNumber
+color: null
+isPrivate: false
+metaSortKey: 1695278939729

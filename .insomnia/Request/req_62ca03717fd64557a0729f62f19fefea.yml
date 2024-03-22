@@ -1,0 +1,51 @@
+_id: req_62ca03717fd64557a0729f62f19fefea
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1700136441198
+created: 1700136422379
+url: "{{apiURL}}/arge/documents/out/:documentID/status"
+name: ARGE Doc Status of one document
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_3917a4f92e814a58a95b8af53668d89b
+      name: ""
+      value: ""
+      description: ""
+parameters:
+  - name: offset
+    value: "300"
+    disabled: true
+    id: pair_a9f78243326e41e2bf67ace6edd59c3f
+  - name: limit
+    value: "100"
+    disabled: true
+    id: pair_45565efcceed47d4809676c757d5046c
+  - id: pair_66f81420818047b08518679fa2b93cb5
+    name: documentID
+    value: 9eae12be-f63a-3f57-ba15-1eab261a0b8b
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_f2a217adb1904d14a2f79ee0a3a9c4de
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+    id: pair_8b93df465ea347d6af81071955965b38
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+  useISO88591: false
+metaSortKey: -1695277379262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_9d7fdc9f0b864a41af3af1bf643c0415
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379250
+created: 1695277379250
+url: "{{apiURL}}/tes/rvp1/billingunits/:objectNumber/readingvalues"
+name: DK TEST ! RV Daily reading values per billing unit Copy
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2023"
+    disabled: true
+  - name: month
+    value: "1"
+    disabled: true
+  - name: resolution
+    value: monthly
+    disabled: true
+  - name: estimated
+    value: "true"
+    disabled: true
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

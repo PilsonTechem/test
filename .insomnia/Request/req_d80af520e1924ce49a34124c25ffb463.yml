@@ -1,0 +1,45 @@
+_id: req_d80af520e1924ce49a34124c25ffb463
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1711008127536
+created: 1698219680216
+url: "{{apiURL}}/arge/documents/out"
+name: ARGE Doc Retrieval of a document list2
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_3917a4f92e814a58a95b8af53668d89b
+      name: ""
+      value: ""
+      description: ""
+parameters:
+  - name: offset
+    value: "300"
+    disabled: true
+  - name: limit
+    value: "100"
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_f2a217adb1904d14a2f79ee0a3a9c4de
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: false
+    id: pair_8b93df465ea347d6af81071955965b38
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+  useISO88591: false
+metaSortKey: -1695277379264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

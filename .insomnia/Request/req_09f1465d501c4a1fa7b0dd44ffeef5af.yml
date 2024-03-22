@@ -1,0 +1,31 @@
+_id: req_09f1465d501c4a1fa7b0dd44ffeef5af
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379261
+created: 1695277379261
+url: "{{apiURL}}/arge/cs/billingunits/:objectNumber/consumptions/periods"
+name: ARGE Cons Calculation period
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2021"
+    disabled: false
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,52 @@
+_id: req_620472ec10734592a89e8ec5c4ca9553
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379220
+created: 1695277379220
+url: "{{apiURL}}/tes/md/billingunits/:objectNumber/smokedetectors"
+name: MD List of smoke detectors for a billing unit
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: begin
+    value: 2023-01-01
+    disabled: true
+  - name: end
+    value: 2023-01-01
+    disabled: true
+  - name: installationbegin
+    value: 2023-01-01
+    disabled: true
+  - name: installationend
+    value: 2023-01-01
+    disabled: true
+  - name: removalbegin
+    value: 2023-01-01
+    disabled: true
+  - name: removalend
+    value: 2023-01-01
+    disabled: true
+  - name: limit
+    value: "100"
+    disabled: true
+  - name: offset
+    value: "300"
+    disabled: true
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

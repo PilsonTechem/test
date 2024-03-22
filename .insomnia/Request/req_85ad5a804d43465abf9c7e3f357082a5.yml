@@ -1,0 +1,29 @@
+_id: req_85ad5a804d43465abf9c7e3f357082a5
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379257
+created: 1695277379257
+url: "{{apiURL}}/arge/rc/billingunits/:objectNumber/residentialunits/:flatNumbe\
+  r/on-site-roles"
+name: ARGE List of roles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379257
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

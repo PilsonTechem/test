@@ -1,0 +1,80 @@
+_id: req_3eec776bd6d84b4bac05eed1838ec83c
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1701180010389
+created: 1695277379217
+url: "{{apiURL}}/tes/md/billingunits/:objectNumber/residentialunits/:flatNumber\
+  /measuringdevices"
+name: MD List of measuring devices in a residential unit (flat)
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_13fc0c2e82964c09906364448d27c9ec
+      name: ""
+      value: ""
+      description: ""
+parameters:
+  - name: begin
+    value: 2023-01-01
+    disabled: true
+    id: pair_ba2eecbe5f9c4bf883bf3bcbb6346e32
+  - name: end
+    value: 2023-01-01
+    disabled: true
+    id: pair_d758f09a7f2b4a049db3d667d4f327b8
+  - name: installationbegin
+    value: 2023-01-01
+    disabled: true
+    id: pair_d3ba33806de247ecae583a32998df3aa
+  - name: installationend
+    value: 2023-01-01
+    disabled: true
+    id: pair_f7732fc4487e4f95895fea00a076c197
+  - name: removalbegin
+    value: 2023-01-01
+    disabled: true
+    id: pair_7043f946cee64acdb4b2926578d80048
+  - name: removalend
+    value: 2023-01-01
+    disabled: true
+    id: pair_a5c8bcb4bdd24338806a6a0e8859269f
+  - name: limit
+    value: "100"
+    disabled: true
+    id: pair_abed3d29691c4d1c8656900e83bffe0f
+  - name: offset
+    value: "300"
+    disabled: true
+    id: pair_1adb7ca25b994ef7b4a0f32b740a0210
+  - id: pair_d1aa5a5b8ff34b2983780aab57fd5be7
+    name: objectNumber
+    value: "033007049"
+    description: ""
+  - id: pair_85808e6e96fc45779b7a367f19698f82
+    name: flatNumber
+    value: "00010"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_45e8728f31ca4a2fa4cabfb6d208ddbe
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+    id: pair_042fc982a185448db857d4949a687ef8
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

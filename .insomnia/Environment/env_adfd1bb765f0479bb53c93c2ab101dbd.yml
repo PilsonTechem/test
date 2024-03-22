@@ -1,0 +1,18 @@
+_id: env_adfd1bb765f0479bb53c93c2ab101dbd
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1695798921328
+created: 1695798814499
+name: NL-114490
+data:
+  username: NL000011449001
+  password: U8jYVi!m?!Fn
+  apiURL: https://api.techem.com/dxs/nl
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+color: null
+isPrivate: false
+metaSortKey: 1695798814499

@@ -1,0 +1,42 @@
+_id: req_79088670362e4917a7dd8aa9413c43f9
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379269
+created: 1695277379269
+url: |
+  {{apiURL}}/tes/md/billingunits/033000294/measuringdevices
+name: |
+  {{apiURL}}/tes/md/billingunits/033000294/measuringdevices
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2023"
+    disabled: true
+  - name: month
+    value: "1"
+    disabled: true
+  - name: resolution
+    value: monthly
+    disabled: true
+  - name: estimated
+    value: "true"
+    disabled: true
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379269
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

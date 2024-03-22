@@ -1,0 +1,20 @@
+_id: env_a4b88e8a5ea94056aee94a32210c88ec
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1710925450390
+created: 1695279861303
+name: PL-350058 (Release)
+data:
+  username: PL000035005801
+  password: z!Autw3Ee??u
+  apiURL: https://api-r.techem.com/dxs/pl
+  customerNumber: "350058"
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+    - customerNumber
+color: null
+isPrivate: false
+metaSortKey: 1695279861303

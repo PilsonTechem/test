@@ -1,0 +1,53 @@
+_id: req_ce3965813c874d9197001d926ab669df
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1701180457476
+created: 1695277379231
+url: "{{apiURL}}/tes/rv/measuringdevices/:deviceID/readingvalues"
+name: RV Reading value per measuring device
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2022"
+    disabled: true
+    id: pair_a6ce3b5cb883476fa89b6b2322a96ca8
+  - name: month
+    value: "12"
+    disabled: true
+    id: pair_ee8a992f7c894f78b0ae71dfad410bba
+  - name: resolution
+    value: monthly
+    disabled: true
+    id: pair_27110e4a8cc94e3ebeec294b029df733
+  - name: estimated
+    value: "true"
+    disabled: true
+    id: pair_24d3092bbe6249ea8dd3184f3601558f
+  - name: ""
+    value: null
+    disabled: false
+    id: pair_95e7f6b8d7a841708014a270f9d002d7
+  - id: pair_7379007ec2a64d648e86a1e425565a51
+    name: deviceID
+    value: 00004813869MGNLD01
+    description: ""
+    disabled: false
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

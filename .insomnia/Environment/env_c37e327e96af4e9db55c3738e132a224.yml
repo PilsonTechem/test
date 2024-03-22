@@ -1,0 +1,20 @@
+_id: env_c37e327e96af4e9db55c3738e132a224
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1701071917188
+created: 1695797558748
+name: NL-114490 (PROD)
+data:
+  username: NL000011449001
+  password: U8jYVi!m?!Fn
+  apiURL: https://api.techem.com/dxs/nl
+  customerNumber: "114490"
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+    - customerNumber
+color: null
+isPrivate: false
+metaSortKey: 1695797558748

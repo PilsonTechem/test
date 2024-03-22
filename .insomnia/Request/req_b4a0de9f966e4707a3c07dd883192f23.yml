@@ -1,0 +1,53 @@
+_id: req_b4a0de9f966e4707a3c07dd883192f23
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695278742420
+created: 1695277379225
+url: "{{apiURL}}/tes/mdp1/billingunits/:objectNumber/residentialunits/:flatNumb\
+  er/radiators"
+name: MD List of radiators for a residential unit (flat) // doubled rooms?
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: begin
+    value: 2023-01-01
+    disabled: true
+  - name: end
+    value: 2023-01-01
+    disabled: true
+  - name: installationbegin
+    value: 2023-01-01
+    disabled: true
+  - name: installationend
+    value: 2023-01-01
+    disabled: true
+  - name: removalbegin
+    value: 2023-01-01
+    disabled: true
+  - name: removalend
+    value: 2023-01-01
+    disabled: true
+  - name: limit
+    value: "100"
+    disabled: true
+  - name: offset
+    value: "300"
+    disabled: true
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

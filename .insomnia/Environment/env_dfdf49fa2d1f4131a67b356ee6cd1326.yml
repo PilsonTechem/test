@@ -1,0 +1,20 @@
+_id: env_dfdf49fa2d1f4131a67b356ee6cd1326
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1710925595392
+created: 1695285806605
+name: PL-400032 (Release)
+data:
+  username: PL000040003201
+  password: bKu!ki54H!?2
+  apiURL: https://api-r.techem.com/dxs/pl
+  customerNumber: "400032"
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+    - customerNumber
+color: null
+isPrivate: false
+metaSortKey: 1695285806605

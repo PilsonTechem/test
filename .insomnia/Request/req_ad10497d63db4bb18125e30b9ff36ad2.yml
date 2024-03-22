@@ -1,0 +1,28 @@
+_id: req_ad10497d63db4bb18125e30b9ff36ad2
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379203
+created: 1695277379203
+url: "{{apiURL}}/tes/md/billingunits"
+name: TEST
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Customer
+    value: "1"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

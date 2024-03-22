@@ -1,0 +1,54 @@
+_id: req_afab74ef9cfc4c759b1397d09c959540
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1698748176547
+created: 1695277379247
+url: "{{apiURL}}/tes/rvp1/billingunits/:objectNumber/readingvalues"
+name: RV Daily reading values per billing unit
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: year
+    value: "2023"
+    disabled: true
+    id: pair_16e21374bcf04e00b8d84b775618b74e
+  - name: month
+    value: "1"
+    disabled: true
+    id: pair_a19f8c8b6c5f4fd892b56f0d3b60a72e
+  - name: resolution
+    value: monthly
+    disabled: true
+    id: pair_366d5116b85d4e088b041b1f248c2f41
+    type: text
+    multiline: false
+  - name: estimated
+    value: "true"
+    disabled: true
+    id: pair_3e71ae6a1cd64647a3cc3251ce572fd8
+  - id: pair_ab4bba612ab24a20a55377bfee5062ef
+    name: resolution
+    value: actual
+    description: ""
+  - id: pair_6f328e589b414121b4b1be304e88a877
+    name: objectNumber
+    value: "033006592"
+    description: ""
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

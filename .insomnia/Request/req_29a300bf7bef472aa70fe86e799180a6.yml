@@ -1,0 +1,34 @@
+_id: req_29a300bf7bef472aa70fe86e799180a6
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379206
+created: 1695277379206
+url: "{{apiURL}}/tes/md/billingunits"
+name: MD List of billing units of one customer/portfolio number
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "100"
+    disabled: true
+  - name: offset
+    value: "0"
+    disabled: true
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

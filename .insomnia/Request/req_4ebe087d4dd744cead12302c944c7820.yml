@@ -1,0 +1,28 @@
+_id: req_4ebe087d4dd744cead12302c944c7820
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1695277379267
+created: 1695277379267
+url: ""
+name: 7.2. Post Reading values per residential unit for self-reading ZAPISYWANIE
+  DANYCH
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379267
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

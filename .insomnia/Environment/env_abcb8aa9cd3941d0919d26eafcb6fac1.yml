@@ -1,0 +1,18 @@
+_id: env_abcb8aa9cd3941d0919d26eafcb6fac1
+type: Environment
+parentId: env_5d1d073063929c1c9ea6ba2d5f39cdd24d9ee51d
+modified: 1698664624426
+created: 1695278939728
+name: NL-102720 (PROD)
+data:
+  username: NL000010272001
+  password: 5FF2rt?Qvihx
+  apiURL: https://api.techem.com/dxs/nl
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+    - apiURL
+color: null
+isPrivate: false
+metaSortKey: 1695278939728

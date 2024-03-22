@@ -1,0 +1,28 @@
+_id: req_4ccc1769a0e2449cb162c031a2b3bb3a
+type: Request
+parentId: fld_97748ea403a84a8da27ebd818298bb8a
+modified: 1708679032856
+created: 1708676966521
+url: ""
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1708679032628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,72 @@
+_id: req_6e2f3539964848eeb62448b755b441df
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1701180062791
+created: 1695277379214
+url: "{{apiURL}}/tes/md/billingunits/:objectNumber/measuringdevices"
+name: MD List of measuring devices in a billing unit
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_79265da291944781809e298ef5f29143
+      name: ""
+      value: ""
+      description: ""
+parameters:
+  - name: begin
+    value: 2020-10-01
+    disabled: true
+    id: pair_ee581bbb719345819a0c6eae8177ad40
+  - name: end
+    value: 2025-12-31
+    disabled: true
+    id: pair_eb229a9da8c843adababf891d2c03612
+  - name: installationbegin
+    value: 2012-01-01
+    disabled: true
+    id: pair_223f25fab32c4738b4542784c80a9a87
+  - name: installationend
+    value: 2023-01-01
+    disabled: true
+    id: pair_3244f789b7814eadb4177355949faa47
+  - name: removalbegin
+    value: 2004-01-01
+    disabled: true
+    id: pair_eb82ba768ba94b2d8de3c8800d6d436e
+  - name: removalend
+    value: 2004-07-01
+    disabled: true
+    id: pair_7d631de72cb94c28bef0ee4d031bc449
+  - name: limit
+    value: "100"
+    disabled: true
+    id: pair_02fc6d99b8f84774b77ae08d2b43403b
+  - name: offset
+    value: "300"
+    disabled: true
+    id: pair_532df152da79476bbc92f8840989c1d3
+  - id: pair_4c35c8ad6daa437a89ef438481d7b2a2
+    name: objectNumber
+    value: "033007049"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

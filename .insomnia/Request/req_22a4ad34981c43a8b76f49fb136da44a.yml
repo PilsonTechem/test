@@ -1,0 +1,40 @@
+_id: req_22a4ad34981c43a8b76f49fb136da44a
+type: Request
+parentId: fld_d7472971ba5c41b3884c519f7a0a85e0
+modified: 1698657181389
+created: 1695277379211
+url: "{{apiURL}}/tes/md/billingunits/:objectNumber/residentialunits"
+name: MD List of residential units (flats) for a billing unit
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    value: "100"
+    disabled: true
+    id: pair_a88c38b9091a4b6b9b1c2948023e5ae7
+  - name: offset
+    value: "0"
+    disabled: true
+    id: pair_837a96fd2a1b4361a4b555f45bba7a44
+  - id: pair_51166df2753648a9a57ea256f8bde60c
+    name: objectNumber
+    value: "033006592"
+    description: ""
+headers:
+  - name: Customer
+    value: "{{customerNumber}}"
+    disabled: true
+authentication:
+  type: basic
+  disabled: false
+  username: "{{username}}"
+  password: "{{password}}"
+metaSortKey: -1695277379211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
